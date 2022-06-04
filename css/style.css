@@ -478,3 +478,17 @@ input:not([type="Submit"]),textarea{
     left: -35px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 970px) {
+    .testimonial{
+        padding: 10px 0;
+    }
+    .cf-box{
+        width: 350px;
+        padding: 25px;
+    }
+    .labels label{
+        text-align: left;
+    }
+    
+}

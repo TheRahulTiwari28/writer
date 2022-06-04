@@ -29,3 +29,6 @@ function reveal(){
 }
 
 
+document.querySelector('.cf-close').addEventListener('click', function(){
+  document.querySelector('.cf-box').classList.toggle('active');
+});
