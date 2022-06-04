@@ -5,7 +5,9 @@
     list-style: none;
     font-family: 'Roboto', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 nav{
     position: fixed;
     z-index: 99;
