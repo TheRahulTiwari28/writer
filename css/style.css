@@ -129,7 +129,10 @@ nav .wrapper{
 }
 .content .row .mega-links{
     margin-left: -40px;
-    border-left: 1px solid rgba(255,255,255,0.09);
+    /* border-left: 1px solid rgba(255,255,255,0.09); */
+}
+.mega-box .content .row:nth-child(1){
+    border-left: none;
 }
 .row .mega-links li{
     padding: 0 20px;
@@ -259,12 +262,10 @@ nav .wrapper{
         width: 100%;
         margin-bottom: 15px;
         border-top: 1px solid rgba(255,255,255,0.08);
-        border-left: none;
     }
     .mega-box .content .row:nth-child(1),
     .mega-box .content .row:nth-child(2){
         border-top: 0px;
-        border-left: none;
     }
     .content .row .mega-links{
         border-left: 0px;
