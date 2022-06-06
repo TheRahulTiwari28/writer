@@ -317,9 +317,8 @@ nav input{
     opacity: 1;
     pointer-events: auto;
 }
-.container{
-    /* width: 1320px !important; */
-    margin: auto;
+.container-sm{
+    overflow: hidden;
 }
 .back-image{
     background-repeat: no-repeat;
@@ -625,6 +624,10 @@ input:not([type="Submit"]),textarea{
     }
     .paragraph{
         margin-top: revert;
+    }
+    .program{
+        padding: 0;
+        margin: 0;
     }
     
 }
