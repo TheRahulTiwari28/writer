@@ -4,6 +4,7 @@
     padding: 0;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    /* overflow-x: hidden; */
 }
 html{
     scroll-behavior: smooth;
@@ -16,8 +17,10 @@ nav{
 }
 nav .wrapper{
     position: relative;
+    max-width: 1450px;
+    overflow: visible;
     height: 100px;
-    padding: 0 50px;
+    padding: 0 40px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -25,6 +28,9 @@ nav .wrapper{
 }
 .wrapper .logo a img{
     width: 220px;
+}
+.rightnav{
+    margin-left: 180px;
 }
 .rightnav .getintouch{
     text-align: right;
@@ -131,7 +137,7 @@ nav .wrapper{
 
 .content header{
     color: #FEB72C;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 .content .row .mega-links{
@@ -165,9 +171,6 @@ nav .wrapper{
 @media screen and (max-width: 970px) {
     .wrapper .btn{
         display: block;
-    }
-    nav .wrapper{
-        padding: 0 10px;
     }
     .wrapper .nav-links{
         position: fixed;
@@ -290,7 +293,7 @@ nav .wrapper{
         margin: 0;
     }
     .content .row header{
-        font-size: 19px;
+        font-size: 16px;
     }
 }
 nav input{
@@ -320,9 +323,9 @@ nav input{
     opacity: 1;
     pointer-events: auto;
 }
-.container-sm{
+/* .container-sm{
     overflow: hidden;
-}
+} */
 .back-image{
     background-repeat: no-repeat;
     height: 70vh;
@@ -339,6 +342,7 @@ nav input{
     color: #fff;
     font-weight: 700;
     text-align: left;
+    padding-left: 100px ;
 }
 
 .paragraph{
@@ -391,7 +395,7 @@ nav input{
     font-size: 18px;
     margin: 15px auto!important;
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 8px;
 }
 .box-btn:hover{
     background: #fff;
@@ -558,6 +562,7 @@ footer h3 a{
     transition: all 0.3s ease-in-out;
     min-height: 200px;
     transform: translateX(100%);
+    /* overflow-x: visible; */
 }
 .cf-box.active{
     transform: translateX(0%);
