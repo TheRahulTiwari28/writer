@@ -16,12 +16,12 @@ nav{
 }
 nav .wrapper{
     position: relative;
-    max-width: 1300px;
     height: 100px;
+    padding: 0 50px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .wrapper .logo a img{
     width: 220px;
