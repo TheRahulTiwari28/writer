@@ -166,6 +166,9 @@ nav .wrapper{
     .wrapper .btn{
         display: block;
     }
+    nav .wrapper{
+        padding: 0 10px;
+    }
     .wrapper .nav-links{
         position: fixed;
         height: 100vh;
