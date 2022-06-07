@@ -18,7 +18,6 @@ nav{
 nav .wrapper{
     position: relative;
     max-width: 1450px;
-    overflow: visible;
     height: 100px;
     padding: 0 40px;
     margin: auto;
@@ -416,7 +415,7 @@ a.button {
     font-weight: 500;
     background: #fdb813;
     text-decoration: none;
-    padding: 10px 70px;
+    padding: 10px 30px;
     margin-bottom: 20px;
 }
 .left-info h4 {
@@ -430,12 +429,28 @@ a.button {
     background-position: bottom;
     height: 80vh;
     background-size: cover;
-    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
 .testimonial-text{
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
+    height: 50vh;
     margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 50px;
+    /* position: absolute; */
+    /* top: 25%;
+    right: 15%; */
 }
 .testimonial-text h1 {
     color: #FEB72C;
@@ -636,6 +651,33 @@ input:not([type="Submit"]),textarea{
     .program{
         padding: 0;
         margin: 0;
+    }
+    /* .testimonial-text{
+        margin: 40px auto;
+        top: 0;
+        right: 0;
+    } */
+    .testimonial{
+        height: 100vh;
+        
+    }
+    
+    .testimonial-text{
+        height: 100vh;
+        margin: auto;
+        padding: 10px;
+    }
+    .testimonial-text h1 {
+        font-size: 34px;
+    }
+    .testimonial-text h3{
+        font-size: 22px;
+    }
+    .testimonial-text p{
+        font-size: 16px;
+        color: #fff;
+        padding: 20px 0;
+        font-weight: normal;
     }
     
 }
