@@ -436,8 +436,6 @@ a.button {
 }
 
 .testimonial-text{
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     height: 50vh;
     margin: auto;
@@ -448,9 +446,6 @@ a.button {
     bottom: 0;
     margin: auto;
     padding-top: 50px;
-    /* position: absolute; */
-    /* top: 25%;
-    right: 15%; */
 }
 .testimonial-text h1 {
     color: #FEB72C;
@@ -663,7 +658,7 @@ input:not([type="Submit"]),textarea{
     }
     
     .testimonial-text{
-        height: 100vh;
+        /* height: 100vh; */
         margin: auto;
         padding: 10px;
     }
